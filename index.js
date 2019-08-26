@@ -2,6 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const md = require('markdown-it')();
 const port = 3000;
+
 function toHtml(markdown) {
 	return `
 		<DOCTYPE html>
